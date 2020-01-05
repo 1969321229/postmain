@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class RuquestController {
     //跳转视图
+    //增加一行注释
     @RequestMapping("toView")
     public String toView(String name) {
         return name;

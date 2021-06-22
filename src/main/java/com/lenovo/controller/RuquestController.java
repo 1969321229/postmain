@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class RuquestController {
-    //跳转视图
+    //跳转
     @RequestMapping("toView")
     public String toView(String name) {
         return name;
